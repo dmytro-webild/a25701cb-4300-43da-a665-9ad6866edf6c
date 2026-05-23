@@ -32,22 +32,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleFullscreen
       navItems={[
-        {
-          name: "Startseite",
-          id: "hero",
-        },
-        {
-          name: "Über uns",
-          id: "about",
-        },
-        {
-          name: "Training",
-          id: "training",
-        },
-        {
-          name: "Kontakt",
-          id: "contact",
-        },
+        { name: "Startseite", id: "hero" },
+        { name: "Über uns", id: "about" },
+        { name: "Training", id: "training" },
+        { name: "Kontakt", id: "contact" },
       ]}
       brandName="WSV Dynamo 22"
     />
@@ -55,133 +43,31 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitDoubleCarousel
-      background={{
-        variant: "rotated-rays-animated",
-      }}
+      background={{ variant: "rotated-rays-animated" }}
       title="Willkommen beim WSV Dynamo 22"
-      description="Der Schwimm- und Flossenschwimmverein für Anfänger, Fortgeschrittene und Wettkampfsportler in Donaustadt und Floridsdorf."
+      description="Der Schwimm- und Flossenschwimmverein für alle Altersgruppen in Wien."
       leftCarouselItems={[
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-male-swimmer-prepared-race_23-2148357026.jpg",
-          imageAlt: "professional swimming training",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/fitness-group-girls-doing-aerobical-excercises-swimming-pool-aqua-park-sport-leisure-activities_627829-10857.jpg",
-          imageAlt: "professional swimming training",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-swimmer-cap-swimming-goggles_171337-8010.jpg",
-          imageAlt: "professional swimming training",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-swimmer-putting-swimming-goggles_23-2148356996.jpg",
-          imageAlt: "professional swimming training",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/person-inside-giant-fishbowl_1122-2229.jpg",
-          imageAlt: "professional swimming training",
-        },
+        { imageSrc: "https://img.freepik.com/free-photo/swimming-pool-blue-water-texture_1232-2632.jpg", imageAlt: "Schwimmbecken Wasser" },
+        { imageSrc: "https://img.freepik.com/free-photo/swimmer-goggles-cap-pool_23-2148357015.jpg", imageAlt: "Schwimmausrüstung" },
+        { imageSrc: "https://img.freepik.com/free-photo/abstract-water-ripple_1098-17551.jpg", imageAlt: "Wasser Textur" }
       ]}
       rightCarouselItems={[
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-female-swimmer-posing-water_23-2148687608.jpg",
-          imageAlt: "professional swimming training",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-professional-swimmer-swimming-pool_1303-24248.jpg",
-          imageAlt: "professional swimming training",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-athlete-getting-out-pool_23-2149028418.jpg",
-          imageAlt: "professional swimming training",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-fabulous-young-girl-standing-pool-water-park-touching-her-hair_627829-10892.jpg",
-          imageAlt: "professional swimming training",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-stretching-outdoors_23-2148768955.jpg",
-          imageAlt: "professional swimming training",
-        },
+        { imageSrc: "https://img.freepik.com/free-photo/swimming-pool-top-view_1232-2633.jpg", imageAlt: "Pool Übersicht" },
+        { imageSrc: "https://img.freepik.com/free-photo/blue-water-surface_1232-2635.jpg", imageAlt: "Wasser Oberfläche" },
+        { imageSrc: "https://img.freepik.com/free-photo/swimming-lane-markers_23-2148356985.jpg", imageAlt: "Schwimmbahn" }
       ]}
-      buttons={[
-        {
-          text: "Jetzt Mitglied werden",
-          href: "#contact",
-        },
-        {
-          text: "Schwimmkurs anfragen",
-          href: "#contact",
-        },
-      ]}
-      avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/high-angle-daily-practice-pool_23-2148357019.jpg",
-          alt: "High angle daily practice at pool",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/front-view-male-swimmer-pointing-basin_23-2148356989.jpg",
-          alt: "Front view male swimmer pointing at basin",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/high-angle-sportsman-preparing-swimming-goggles_23-2148357020.jpg",
-          alt: "High angle sportsman preparing swimming goggles",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/side-view-young-male-swimming-pool_23-2148357002.jpg",
-          alt: "Side view young male at swimming pool",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/young-teenager-girl-swimsuit-swimming-blue-pool_169016-57816.jpg",
-          alt: "A young teenager girl in a swimsuit swimming in a blue pool",
-        },
-      ]}
-      avatarText="Über 300 aktive Sportler"
-      marqueeItems={[
-        {
-          type: "text",
-          text: "Donaustadt",
-        },
-        {
-          type: "text",
-          text: "Floridsdorf",
-        },
-        {
-          type: "text",
-          text: "Wettkampf",
-        },
-        {
-          type: "text",
-          text: "Training",
-        },
-        {
-          type: "text",
-          text: "Schwimmkurse",
-        },
-      ]}
+      buttons={[{ text: "Jetzt Mitglied werden", href: "#contact" }]}
+      avatarText="Familienfreundlich & Engagiert"
     />
   </div>
 
   <div id="about" data-section="about">
       <AboutMetric
-      useInvertedBackground={false}
-      title="Schwimmen lernen. Leistung steigern. Gemeinschaft erleben."
+      title="Tradition trifft moderne Schwimmtechnik"
       metrics={[
-        {
-          icon: Award,
-          label: "Jahre Erfahrung",
-          value: "20+",
-        },
-        {
-          icon: Users,
-          label: "Aktive Sportler",
-          value: "300+",
-        },
-        {
-          icon: Activity,
-          label: "Trainingsgruppen",
-          value: "6",
-        },
+        { icon: Award, label: "Erfahrung", value: "20+ Jahre" },
+        { icon: Users, label: "Gemeinschaft", value: "300+ Sportler" },
+        { icon: Activity, label: "Trainingsgruppen", value: "6" }
       ]}
       metricsAnimation="slide-up"
     />
@@ -192,223 +78,80 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       gridVariant="three-columns-all-equal-width"
-      useInvertedBackground={false}
+      title="Unsere Angebote"
+      description="Technik, Ausdauer und Teamgeist für alle Altersstufen."
       features={[
-        {
-          title: "Anfängerkurse",
-          description: "Sicher schwimmen lernen in kleinen Gruppen.",
-          imageSrc: "http://img.b2bpic.net/free-photo/little-cute-baby-boy-instructor-with-kid-mother-with-son_1157-42296.jpg",
-        },
-        {
-          title: "Leistungsgruppen",
-          description: "Wettkampforientiertes Training für Ambitionierte.",
-          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-male-with-goggles-looking-up_23-2148326753.jpg",
-        },
-        {
-          title: "Flossenschwimmen",
-          description: "Maximale Geschwindigkeit unter Wasser.",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-swimming-water_23-2149066309.jpg",
-        },
+        { title: "Anfängerkurse", description: "Spielerisch die Sicherheit im Wasser gewinnen.", imageSrc: "https://img.freepik.com/free-photo/swimming-kickboard-floating-pool_23-2148356999.jpg" },
+        { title: "Leistungsgruppen", description: "Wettkampfvorbereitung mit professioneller Technikschulung.", imageSrc: "https://img.freepik.com/free-photo/stopwatch-on-swimming-pool-edge_23-2148356994.jpg" },
+        { title: "Flossenschwimmen", description: "Dynamische Bewegung unter Wasser für Profis.", imageSrc: "https://img.freepik.com/free-photo/diving-fins-blue-background_23-2148356980.jpg" }
       ]}
-      title="Unsere Trainingsbereiche"
-      description="Wir fördern Technik Leistung und Freude am Wasser in allen Leistungsstufen."
     />
   </div>
 
   <div id="metrics" data-section="metrics">
       <MetricCardFourteen
-      useInvertedBackground={false}
-      title="Meilensteine 2025"
-      tag="Ausblick"
+      title="Vereinsleben 2025"
       metrics={[
-        {
-          id: "m1",
-          value: "15",
-          description: "Vereinsinterne Events",
-        },
-        {
-          id: "m2",
-          value: "5",
-          description: "Meisterschaftsturniere",
-        },
-        {
-          id: "m3",
-          value: "100%",
-          description: "Leidenschaft",
-        },
+        { id: "m1", value: "15", description: "Events & Ausflüge" },
+        { id: "m2", value: "5", description: "Wettkämpfe" },
+        { id: "m3", value: "100%", description: "Leidenschaft" }
       ]}
-      metricsAnimation="slide-up"
     />
   </div>
 
   <div id="team" data-section="team">
       <TeamCardTwo
+      title="Unser Trainer-Team"
+      description="Gemeinsam erreichen wir sportliche Ziele."
+      members={[
+        { id: "t1", name: "Head Coach", role: "Training & Planung", description: "Langjährige Erfahrung in der Schwimmförderung.", imageSrc: "https://img.freepik.com/free-photo/swimming-pool-background-water-ripples_1232-2630.jpg" },
+        { id: "t2", name: "Trainerstab", role: "Nachwuchsförderung", description: "Wir vermitteln Spaß und Technik.", imageSrc: "https://img.freepik.com/free-photo/water-surface-texture_1232-2631.jpg" }
+      ]}
+      gridVariant="two-columns-alternating-heights"
       animationType="slide-up"
       textboxLayout="default"
-      gridVariant="four-items-2x2-equal-grid"
-      useInvertedBackground={false}
-      members={[
-        {
-          id: "t1",
-          name: "Markus Lässig",
-          role: "Head Coach",
-          description: "Dipl. Ernährungstrainer & erfahrener Schwimmtrainer.",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-waterpolo-players_23-2151202984.jpg",
-        },
-        {
-          id: "t2",
-          name: "Annabell Salapa",
-          role: "Trainerin",
-          description: "Expertin für Technik und Einsteiger.",
-          imageSrc: "http://img.b2bpic.net/free-photo/water-polo-players-pool-with-swimming-equipment_23-2150893929.jpg",
-        },
-        {
-          id: "t3",
-          name: "Dr. Rudolf Lässig",
-          role: "Trainer",
-          description: "Fokus auf Erwachsenentraining.",
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-swimming-pool_1098-16924.jpg",
-        },
-        {
-          id: "t4",
-          name: "Thomas Groch",
-          role: "Trainer",
-          description: "Spezialist für Fitness.",
-          imageSrc: "http://img.b2bpic.net/free-photo/water-polo-players-pool-with-trophy_23-2150893975.jpg",
-        },
-      ]}
-      title="Unser Trainer-Team"
-      description="Professionelle Begleitung durch unsere erfahrenen Coaches."
     />
   </div>
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardTwo
+      title="Stimmen aus dem Verein"
+      testimonials={[
+        { id: "1", name: "Vereinsmitglied", role: "Elternteil", testimonial: "Ein tolles Team, das unsere Kinder hervorragend fördert.", imageSrc: "https://img.freepik.com/free-photo/blue-waves-background_23-2148356987.jpg" },
+        { id: "2", name: "Schwimmsportler", role: "Wettkampfgruppe", testimonial: "Professionelles Training mit viel Herz.", imageSrc: "https://img.freepik.com/free-photo/swimming-pool-water-texture_1232-2632.jpg" }
+      ]}
       animationType="slide-up"
       textboxLayout="default"
-      useInvertedBackground={false}
-      testimonials={[
-        {
-          id: "1",
-          name: "Familie Mayer",
-          role: "Eltern",
-          testimonial: "Tolle Kurse und super Trainer!",
-          imageSrc: "http://img.b2bpic.net/free-photo/water-polo-players-pool-with-swimming-equipment_23-2150893970.jpg",
-        },
-        {
-          id: "2",
-          name: "Lukas W.",
-          role: "Schwimmer",
-          testimonial: "Mein Training hat sich enorm verbessert.",
-          imageSrc: "http://img.b2bpic.net/free-photo/blonde-swimmer-smiling-medium-shot_23-2148393568.jpg",
-        },
-        {
-          id: "3",
-          name: "Sophie K.",
-          role: "Finswimmerin",
-          testimonial: "Die Monoflosse ist der Wahnsinn!",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-wearing-goggles-swim-cap_23-2149028410.jpg",
-        },
-        {
-          id: "4",
-          name: "Familie Schmid",
-          role: "Eltern",
-          testimonial: "Sehr familienfreundlicher Verein.",
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-waterpolo-players_23-2151202983.jpg",
-        },
-        {
-          id: "5",
-          name: "Jonas T.",
-          role: "Mitglied",
-          testimonial: "Dynamo 22 ist wie eine zweite Heimat.",
-          imageSrc: "http://img.b2bpic.net/free-photo/best-friends-spending-some-quality-time-together_23-2149032328.jpg",
-        },
-      ]}
-      title="Was Mitglieder sagen"
-      description="Erfahrungen unserer Vereinsmitglieder und Familien."
     />
   </div>
 
   <div id="faq" data-section="faq">
       <FaqDouble
-      textboxLayout="default"
-      useInvertedBackground={false}
-      faqs={[
-        {
-          id: "q1",
-          title: "Wie kann ich beitreten?",
-          content: "Einfach per E-Mail kontaktieren.",
-        },
-        {
-          id: "q2",
-          title: "Wo trainiert ihr?",
-          content: "Wir sind an 4 Hallenbädern in Wien aktiv.",
-        },
-        {
-          id: "q3",
-          title: "Gibt es Probetrainings?",
-          content: "Ja, jederzeit nach Vereinbarung.",
-        },
-      ]}
       title="Häufige Fragen"
+      faqs={[
+        { id: "q1", title: "Wie kann man Mitglied werden?", content: "Senden Sie uns einfach eine Nachricht per Kontaktformular." },
+        { id: "q2", title: "Wo findet das Training statt?", content: "Wir trainieren in verschiedenen öffentlichen Bädern Wiens." }
+      ]}
       faqsAnimation="slide-up"
-      description="Die wichtigsten Antworten rund um den WSV Dynamo 22."
+      textboxLayout="default"
     />
   </div>
 
   <div id="contact" data-section="contact">
       <ContactText
-      useInvertedBackground={false}
-      background={{
-        variant: "rotated-rays-animated",
-      }}
-      text="Bereit für den Sprung ins Wasser? Kontaktiere unser Team für Infos zu Kursen und Mitgliedschaften."
-      buttons={[
-        {
-          text: "Jetzt anfragen",
-          href: "mailto:office@schwimmverein22.at",
-        },
-      ]}
+      text="Interesse geweckt? Werde Teil unseres Schwimmteams!"
+      background={{ variant: "rotated-rays-animated" }}
+      buttons={[{ text: "Kontakt aufnehmen", href: "mailto:office@wsv-dynamo22.at" }]}
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
-      columns={[
-        {
-          items: [
-            {
-              label: "Über uns",
-              href: "#about",
-            },
-            {
-              label: "Impressum",
-              href: "#",
-            },
-            {
-              label: "Datenschutz",
-              href: "#",
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              label: "Training",
-              href: "#training",
-            },
-            {
-              label: "Kurse",
-              href: "#contact",
-            },
-            {
-              label: "Wettkämpfe",
-              href: "#",
-            },
-          ],
-        },
-      ]}
       logoText="WSV Dynamo 22"
+      columns={[
+        { items: [{ label: "Über uns", href: "#about" }, { label: "Impressum", href: "#" }] },
+        { items: [{ label: "Training", href: "#training" }, { label: "Kontakt", href: "#contact" }] }
+      ]}
     />
   </div>
       </ReactLenis>
