@@ -47,14 +47,14 @@ export default function LandingPage() {
       title="Willkommen beim WSV Dynamo 22"
       description="Der Schwimm- und Flossenschwimmverein für alle Altersgruppen in Wien."
       leftCarouselItems={[
-        { imageSrc: "https://img.freepik.com/free-photo/swimming-pool-blue-water-texture_1232-2632.jpg", imageAlt: "Schwimmbecken Wasser" },
-        { imageSrc: "https://img.freepik.com/free-photo/swimmer-goggles-cap-pool_23-2148357015.jpg", imageAlt: "Schwimmausrüstung" },
-        { imageSrc: "https://img.freepik.com/free-photo/abstract-water-ripple_1098-17551.jpg", imageAlt: "Wasser Textur" }
+        { imageSrc: "https://img.freepik.com/free-photo/abstract-water-texture_1232-2632.jpg", imageAlt: "Abstraktes Wasser" },
+        { imageSrc: "https://img.freepik.com/free-photo/swimming-goggles-pool-equipment_23-2148357015.jpg", imageAlt: "Schwimmbrille" },
+        { imageSrc: "https://img.freepik.com/free-photo/abstract-water-blue-ripple_1098-17551.jpg", imageAlt: "Wasserwelle" }
       ]}
       rightCarouselItems={[
-        { imageSrc: "https://img.freepik.com/free-photo/swimming-pool-top-view_1232-2633.jpg", imageAlt: "Pool Übersicht" },
-        { imageSrc: "https://img.freepik.com/free-photo/blue-water-surface_1232-2635.jpg", imageAlt: "Wasser Oberfläche" },
-        { imageSrc: "https://img.freepik.com/free-photo/swimming-lane-markers_23-2148356985.jpg", imageAlt: "Schwimmbahn" }
+        { imageSrc: "https://img.freepik.com/free-photo/swimming-pool-lane-dividers_1232-2633.jpg", imageAlt: "Schwimmbahnen" },
+        { imageSrc: "https://img.freepik.com/free-photo/water-surface-texture-blue_1232-2635.jpg", imageAlt: "Wasseroberfläche" },
+        { imageSrc: "https://img.freepik.com/free-photo/swimming-kickboard-equipment_23-2148356985.jpg", imageAlt: "Schwimmbrett" }
       ]}
       buttons={[{ text: "Jetzt Mitglied werden", href: "#contact" }]}
       avatarText="Familienfreundlich & Engagiert"
@@ -82,9 +82,9 @@ export default function LandingPage() {
       title="Unsere Angebote"
       description="Technik, Ausdauer und Teamgeist für alle Altersstufen."
       features={[
-        { title: "Anfängerkurse", description: "Spielerisch die Sicherheit im Wasser gewinnen.", imageSrc: "https://img.freepik.com/free-photo/swimming-kickboard-floating-pool_23-2148356999.jpg" },
-        { title: "Leistungsgruppen", description: "Wettkampfvorbereitung mit professioneller Technikschulung.", imageSrc: "https://img.freepik.com/free-photo/stopwatch-on-swimming-pool-edge_23-2148356994.jpg" },
-        { title: "Flossenschwimmen", description: "Dynamische Bewegung unter Wasser für Profis.", imageSrc: "https://img.freepik.com/free-photo/diving-fins-blue-background_23-2148356980.jpg" }
+        { title: "Anfängerkurse", description: "Spielerisch die Sicherheit im Wasser gewinnen.", imageSrc: "https://img.freepik.com/free-photo/swimming-kickboard-floating_23-2148356999.jpg" },
+        { title: "Leistungsgruppen", description: "Wettkampfvorbereitung mit professioneller Technikschulung.", imageSrc: "https://img.freepik.com/free-photo/stopwatch-pool-timer_23-2148356994.jpg" },
+        { title: "Flossenschwimmen", description: "Dynamische Bewegung unter Wasser für Profis.", imageSrc: "https://img.freepik.com/free-photo/diving-flippers-equipment_23-2148356980.jpg" }
       ]}
       useInvertedBackground={false}
     />
@@ -109,8 +109,8 @@ export default function LandingPage() {
       title="Unser Trainer-Team"
       description="Gemeinsam erreichen wir sportliche Ziele."
       members={[
-        { id: "t1", name: "Head Coach", role: "Training & Planung", description: "Langjährige Erfahrung in der Schwimmförderung.", imageSrc: "https://img.freepik.com/free-photo/swimming-pool-background-water-ripples_1232-2630.jpg" },
-        { id: "t2", name: "Trainerstab", role: "Nachwuchsförderung", description: "Wir vermitteln Spaß und Technik.", imageSrc: "https://img.freepik.com/free-photo/water-surface-texture_1232-2631.jpg" }
+        { id: "t1", name: "Head Coach", role: "Training & Planung", description: "Langjährige Erfahrung in der Schwimmförderung.", imageSrc: "https://img.freepik.com/free-photo/water-ripple-abstract_1232-2630.jpg" },
+        { id: "t2", name: "Trainerstab", role: "Nachwuchsförderung", description: "Wir vermitteln Spaß und Technik.", imageSrc: "https://img.freepik.com/free-photo/blue-water-surface-texture_1232-2631.jpg" }
       ]}
       gridVariant="two-columns-alternating-heights"
       animationType="slide-up"
@@ -124,8 +124,8 @@ export default function LandingPage() {
       title="Stimmen aus dem Verein"
       description="Was unsere Mitglieder über uns sagen."
       testimonials={[
-        { id: "1", name: "Vereinsmitglied", role: "Elternteil", testimonial: "Ein tolles Team, das unsere Kinder hervorragend fördert.", imageSrc: "https://img.freepik.com/free-photo/blue-waves-background_23-2148356987.jpg" },
-        { id: "2", name: "Schwimmsportler", role: "Wettkampfgruppe", testimonial: "Professionelles Training mit viel Herz.", imageSrc: "https://img.freepik.com/free-photo/swimming-pool-water-texture_1232-2632.jpg" }
+        { id: "1", name: "Vereinsmitglied", role: "Elternteil", testimonial: "Ein tolles Team, das unsere Kinder hervorragend fördert.", imageSrc: "https://img.freepik.com/free-photo/blue-water-waves-background_23-2148356987.jpg" },
+        { id: "2", name: "Schwimmsportler", role: "Wettkampfgruppe", testimonial: "Professionelles Training mit viel Herz.", imageSrc: "https://img.freepik.com/free-photo/water-ripple-texture_1232-2632.jpg" }
       ]}
       animationType="slide-up"
       textboxLayout="default"
