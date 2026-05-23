@@ -70,6 +70,7 @@ export default function LandingPage() {
         { icon: Activity, label: "Trainingsgruppen", value: "6" }
       ]}
       metricsAnimation="slide-up"
+      useInvertedBackground={false}
     />
   </div>
 
@@ -85,6 +86,7 @@ export default function LandingPage() {
         { title: "Leistungsgruppen", description: "Wettkampfvorbereitung mit professioneller Technikschulung.", imageSrc: "https://img.freepik.com/free-photo/stopwatch-on-swimming-pool-edge_23-2148356994.jpg" },
         { title: "Flossenschwimmen", description: "Dynamische Bewegung unter Wasser für Profis.", imageSrc: "https://img.freepik.com/free-photo/diving-fins-blue-background_23-2148356980.jpg" }
       ]}
+      useInvertedBackground={false}
     />
   </div>
 
@@ -96,6 +98,9 @@ export default function LandingPage() {
         { id: "m2", value: "5", description: "Wettkämpfe" },
         { id: "m3", value: "100%", description: "Leidenschaft" }
       ]}
+      tag="Statistiken"
+      metricsAnimation="slide-up"
+      useInvertedBackground={false}
     />
   </div>
 
@@ -110,30 +115,35 @@ export default function LandingPage() {
       gridVariant="two-columns-alternating-heights"
       animationType="slide-up"
       textboxLayout="default"
+      useInvertedBackground={false}
     />
   </div>
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardTwo
       title="Stimmen aus dem Verein"
+      description="Was unsere Mitglieder über uns sagen."
       testimonials={[
         { id: "1", name: "Vereinsmitglied", role: "Elternteil", testimonial: "Ein tolles Team, das unsere Kinder hervorragend fördert.", imageSrc: "https://img.freepik.com/free-photo/blue-waves-background_23-2148356987.jpg" },
         { id: "2", name: "Schwimmsportler", role: "Wettkampfgruppe", testimonial: "Professionelles Training mit viel Herz.", imageSrc: "https://img.freepik.com/free-photo/swimming-pool-water-texture_1232-2632.jpg" }
       ]}
       animationType="slide-up"
       textboxLayout="default"
+      useInvertedBackground={false}
     />
   </div>
 
   <div id="faq" data-section="faq">
       <FaqDouble
       title="Häufige Fragen"
+      description="Alles was Sie wissen müssen."
       faqs={[
         { id: "q1", title: "Wie kann man Mitglied werden?", content: "Senden Sie uns einfach eine Nachricht per Kontaktformular." },
         { id: "q2", title: "Wo findet das Training statt?", content: "Wir trainieren in verschiedenen öffentlichen Bädern Wiens." }
       ]}
       faqsAnimation="slide-up"
       textboxLayout="default"
+      useInvertedBackground={false}
     />
   </div>
 
@@ -142,6 +152,7 @@ export default function LandingPage() {
       text="Interesse geweckt? Werde Teil unseres Schwimmteams!"
       background={{ variant: "rotated-rays-animated" }}
       buttons={[{ text: "Kontakt aufnehmen", href: "mailto:office@wsv-dynamo22.at" }]}
+      useInvertedBackground={false}
     />
   </div>
 
